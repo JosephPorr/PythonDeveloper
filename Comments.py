@@ -8,4 +8,4 @@ This is NOT a block comment
 This a multiline string
 """
 #  Visual Studio w/ VIM, use Shift+I to insert
-#  Visual Studio w/ VIM, press ESC then wq or q!.
+#  Visual Studio w/ VIM, press ESC then wq or q!
