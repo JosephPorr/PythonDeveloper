@@ -1,5 +1,3 @@
-#!C:\\Users\\Joe\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe
-
 def print_todo(todo):
     """
     Print todo takes in the todo and prints it out.
