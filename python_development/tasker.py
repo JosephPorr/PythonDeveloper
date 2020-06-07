@@ -1,3 +1,5 @@
+#!C:\\Users\\Joe\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe
+
 def print_todo(todo):
     """
     Print todo takes in the todo and prints it out.
@@ -37,4 +39,3 @@ def sum_points(todo1, todo2):
     """
 
     return int(todo1['points']) + int(todo2['points'])
-    
