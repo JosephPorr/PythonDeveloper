@@ -28,6 +28,11 @@ class Car:  # Classes define your own object.  There built in objects like boole
         # to refer to instance attributes. In Python, we have methods that make 
         # the instance to be passed automatically, but not received automatically.
 
+    def wheel_circumference(self):
+        if len(self.tires) > 0:
+            return self.tires[0].circumference()
+        else:
+            return 0   
 
 
 
