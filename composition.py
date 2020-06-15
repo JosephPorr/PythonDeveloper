@@ -1,3 +1,8 @@
+# As below, the “SnowTire” is a class inheritance of the existing class “Tire"
+# Super() calls the implementation of the parent class, Tire.
+# Return prints to the REPL
+# repr returns a string that holds a printable representation of an object.
+
 import math  # This is built in Python package for the math below
 
 class Tire:
