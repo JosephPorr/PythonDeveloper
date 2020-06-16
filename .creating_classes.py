@@ -1,3 +1,5 @@
+# Self is used everytime we use a method in a variable initialization
+
 class Car:  # Classes define your own object.  There built in objects like boolean, float or strig etc. Names start with capital letter
     """
     Docstring decribing the class, gives your object functionality called a method.
