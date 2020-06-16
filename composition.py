@@ -2,6 +2,7 @@
 # Super() calls the implementation of the parent class, Tire.
 # Return prints to the REPL
 # repr returns a string that holds a printable representation of an object.
+# Self is used everytime we use a method in a variable initialization
 
 import math  # This is built in Python package for the math below
 
