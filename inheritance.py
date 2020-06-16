@@ -1,7 +1,11 @@
 # Composition over inheritance.  
 # Inheritance allows us to create new classes that add or modify the behavior of existing classes.   
 # Makes existing classes more detailed.  
-# As below, the “SnowTire” is a class inheritance of the existing class “Tire”
+# As below, the “SnowTire” is a class inheritance of the existing class “Tire"
+# Super() calls the implementation of the parent class, Tire.
+# Return prints to the REPL
+# repr returns a string that holds a printable representation of an object.
+# Self is used everytime we use a method in a variable initialization
 
 import math  # This is built in Python package for the math below
 
@@ -55,5 +59,6 @@ class snowTire(Tire):  # Inheritance a class, tire
         total_diameter = (side_wall_inches + self.chain_thickness) * 2 + self.diameter
         return round(total_diameter * math.pi, 1)
 
-    def __repr__(self):
-        return super().__repr__() + " (Snow)
+    def __repr__(self): #reper will return the string from the return of the 
+        return super().__repr__() + " (Snow)  
+        
