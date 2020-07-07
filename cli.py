@@ -8,7 +8,7 @@ class DriverAction(Action):
         driver, destination = values
         namespace.driver = driver.lower()
         namespace.destination = destination
-        
+
 def create_parser():  #  Need to create parser function to return a function.
     parser = ArgumentParser(description="""
     Bash up PostgreSQL database locally or to AWS S3.
@@ -21,5 +21,6 @@ def create_parser():  #  Need to create parser function to return a function.
             nargs=2,
             action=DriverAction,
             required=True)
+            
     return parser
 
