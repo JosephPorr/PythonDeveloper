@@ -1,5 +1,7 @@
 from argparse import Action, ArgumentParser
 
+# argparse is a container to hold an argument.
+
 # Below is the list of parameters passed as keyword arguments.
 # https://docs.python.org/3/library/argparse.html#argparse.ArgumentParser
 
@@ -21,6 +23,6 @@ def create_parser():  #  Need to create parser function to return a function.
             nargs=2,
             action=DriverAction,
             required=True)
-            
+
     return parser
 
