@@ -26,3 +26,10 @@ def dump(url): # this tool will allow us to easily get backups from a PostgreSQL
 # >>> f = open('dump.sql', 'w+b')
 # >>> f.write(dump.stdout.read())
 # >>> f.close()
+def dump_file_name(url, timestamp=None): #uses the same urland adds a timestamp
+     db_name = url.split("/")[-1]
+    db_name = db_name.split("?")[0] # gets rid of the query strings
+    if timestamp:
+        return f"{db_name}-{timestamp}.sql"
+    else:
+        return f"{db_name}.sql"
