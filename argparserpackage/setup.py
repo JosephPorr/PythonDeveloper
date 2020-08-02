@@ -49,4 +49,4 @@ setup(
 # $ exit
 # pip install pre-commit
 # $ pip3.7 install --user https://s3.amazonaws.com/python-developer/pgbackup-0.1.0-py3-none-any.whl
-# $ pgbackup --help
+# $ pgbackup --help 
