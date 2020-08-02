@@ -8,7 +8,7 @@
 # The main purpose of the setup script is to describe your module distribution to the Distutils, 
 # so that the various commands that operate on your modules do the right thing.
 
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages  # $ pip3 install steuptools
 
 with open('README.rst', encoding='UTF-8') as f:
   readme = f.read()
@@ -22,5 +22,8 @@ setup(
     author_email='your_email@example.com',
     packages=find_packages('src'),  #  The src is the current folder where the pipenv and packages are located.
     package_dir={'': 'src'},
-    install_requires=[]  # THere's no dependencies and empty
+    install_requires=[], # There's no dependencies and empty
+    entry_points={
+        'console_scripts': 'hr=hr.cli:main',
+    },  
 )
