@@ -15,6 +15,6 @@ def create_app(test_config=None): #Use "None" to add in own config for automated
     if test_config is None:  # If test config exists or not.
         app.config.from_pyfile('comfig.py', silent=True) #Load more configs from a different python file.  Silent=True makes it still exicute if the file doesn't exist.
     else:
-        app.config.from_mapping(test_config)  # see above
+        app.config.from_mapping(test_config)  # if someone wants to add a test config later on, see above
 
     return app
