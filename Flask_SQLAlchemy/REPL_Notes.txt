@@ -1,0 +1,67 @@
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper (master)
+$ cd Flask_SQLAlchemy                                                        
+(notes) 
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ pipenv --python python3 install flask                                      
+Courtesy Notice: Pipenv found itself running within a virtual environment, so it will automatically use that environment, instead of creating its own for 
+any project. You can set PIPENV_IGNORE_VIRTUALENVS=1 to force pipenv to ignore that environment and create its own instead. You can set PIPENV_VERBOSITY=-1 to suppress this warning.
+Installing flask…
+Adding flask to Pipfile's [packages]…
+Pipfile.lock (92ae2c) out of date, updating to (a10859)…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+           Building requirements...
+Resolving dependencies...
+Success!
+Updated Pipfile.lock (a10859)!
+Installing dependencies from Pipfile.lock (a10859)…
+  ================================ 15/15 - 00:00:17
+(notes)
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ mkdir templates static
+(notes)
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ touch {templates,static}/.gitkeep
+(notes)
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ pipenv shell
+Courtesy Notice: Pipenv found itself running within a virtual environment, so it will automatically use 
+that environment, instead of creating its own for any project. You can set PIPENV_IGNORE_VIRTUALENVS=1 to force pipenv to ignore that environment and create its own instead. You can set PIPENV_VERBOSITY=-1 to suppress this warning.
+Launching subshell in virtual environment…
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper (master)
+$ cd Flask_SQLAlchemy
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ curl -o .gitignore https://raw.githubusercontent.com/JosephPorr/PythonDeveloper/master/.gitignore     
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2035  100  2035    0     0   7065      0 --:--:-- --:--:-- --:--:--  7041
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ git init
+Initialized empty Git repository in C:/Users/Joe/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy/.git/$ git add --all
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory       r)
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ git add --all .
+                                                                             r)
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ git commit -m 'Initial commit'                                             r)
+[master (root-commit) 115dfef] Initial commit
+ 5 files changed, 189 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 __init__.py
+ create mode 100644 models.py
+ create mode 100644 static/.gitkeep
+ create mode 100644 templates/.gitkeep
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ ls
+__init__.py  __pycache__  models.py  static  templates
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/Flask_SQLAlchemy (master)
+$ ls
+__init__.py  models.py  Pipfile.lock  templates
+__pycache__  Pipfile    static
