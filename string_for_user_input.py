@@ -9,3 +9,13 @@ print("Middle character:", message[int(len(message) / 2)])  # Divided by 2 (half
 print("Even index characters:", message[0::2])  # prints all the even numbers.
 print("Odd index characters:", message[1::2])
 print("Reversed message:", message[::-1]) # Use slicing to do the index in reverse.
+
+#Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper (master)
+#$ ./string_for_user_input.py
+#Enter a message: abcde
+#First character: a
+#Last character: e
+#Middle character: c
+#Even index characters: ace
+#Odd index characters: bd
+#Reversed message: edcba
