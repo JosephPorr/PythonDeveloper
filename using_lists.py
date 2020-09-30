@@ -1,7 +1,8 @@
 # 1) Set the users variable to be an empty list
-users = []
+users = []  #  first need to create a users list, [] are for lists
 
 assert users == [], f"Expected `users` to be [] but got: {repr(users)}"
+# Assert is used to debug and test if a condition in your code is true.
 
 # 2) Add 'Joe', 'bob', and 'alice' to the users list in that order without reassigning the variable.
 users.append('Joe')
@@ -23,7 +24,7 @@ assert rev_users == ['alice', 'Joe'], f"Expected `rev_users` to be ['alice', 'Jo
 # 5) Add the user 'melody' to users where 'bob' used to be.
 users.insert(1, 'melody')
 
-assert users == ['kevin', 'melody', 'alice'], f"Expected `users` to be ['Joe', 'melody', 'alice'] but got: {repr(users)}"
+assert users == ['Joe', 'melody', 'alice'], f"Expected `users` to be ['Joe', 'melody', 'alice'] but got: {repr(users)}"
 
 # 6) Add the users 'andy', 'wanda', and 'jim' to the users list using a single command
 users += ['andy', 'wanda', 'jim']
