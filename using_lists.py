@@ -1,4 +1,4 @@
-# 1) Set the users variable to be an empty list
+# 1) Set the users variable to be an empty list.  Will use $phyon using_lists.py to see the debug from asserts.
 users = []  #  first need to create a users list, [] are for lists
 
 assert users == [], f"Expected `users` to be [] but got: {repr(users)}"
