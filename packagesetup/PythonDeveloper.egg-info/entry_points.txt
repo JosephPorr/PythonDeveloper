@@ -1,0 +1,3 @@
+[console_scripts]
+packagesetup = packagesetup.cli:main
+
