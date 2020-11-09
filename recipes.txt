@@ -1,1 +1,0 @@
-test for haddle_errors.py 
