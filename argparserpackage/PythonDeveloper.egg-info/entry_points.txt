@@ -1,0 +1,3 @@
+[console_scripts]
+argparserpackage = argparserpackage.cli:main
+
