@@ -1,0 +1,8 @@
+README.md
+setup.py
+PythonDeveloper.egg-info/PKG-INFO
+PythonDeveloper.egg-info/SOURCES.txt
+PythonDeveloper.egg-info/dependency_links.txt
+PythonDeveloper.egg-info/entry_points.txt
+PythonDeveloper.egg-info/requires.txt
+PythonDeveloper.egg-info/top_level.txt
