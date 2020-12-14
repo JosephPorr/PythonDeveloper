@@ -2,6 +2,7 @@
 # To avoid writing out so many zeros, physics textbooks use an abbreviated form, which you have probably already seen: 3 x 10^8
 
 3E8
+1e-22 # print(0.0000000000000000000001)
 
 # The letter E (you can also use the lower-case letter e - it comes from the word exponent) 
 # is a concise record of the phrase times ten to the power of.
