@@ -1,0 +1,28 @@
+The comparison (or the so-called relational) operators are used to compare values. The table below illustrates how the comparison operators work, assuming that x = 0, y = 1, and z = 0:
+
+Operator	Description	Example
+==	returns if operands' values are equal, and False otherwise	
+x == y # False
+x == z # True
+
+!=	returns True if operands' values are not equal, and False otherwise	
+x != y # True
+x != z # False
+
+>	True if the left operand's value is greater than the right operand's value, and False otherwise	
+x > y # False
+y > z # True
+
+<	True if the left operand's value is less than the right operand's value, and False otherwise	
+x < y # True
+y < z # False
+
+≥	True if the left operand's value is greater than or equal to the right operand's value, and False otherwise	
+x >= y # False
+x >= z # True
+y >= z # True
+
+≤	True if the left operand's value is less than or equal to the right operand's value, and False otherwise	
+x <= y # True
+x <= z # True
+y <= z # False
