@@ -6,7 +6,7 @@ x == y # False
 x == z # True
 
 !=	returns True if operands' values are not equal, and False otherwise	
-x != y # True
+x != y # True (x is not equal to y)
 x != z # False
 
 >	True if the left operand's value is greater than the right operand's value, and False otherwise	
