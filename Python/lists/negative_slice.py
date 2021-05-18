@@ -20,4 +20,18 @@ newList = myList[-1:4]
 print(newList)
 # output is []
 
+###
+
+myList = [10, 8, 6, 4, 2]
+newList = myList[:3]  # compact equivalent of mylist[0:3]
+print(newList)
+# output [10, 8, 6]
+
+###
+
+myList = [10, 8, 6, 4, 2]
+newList = myList[3:] # compact equivalent of mylist[3:0]. starts at 4th position, or 4. no end defined
+print(newList)
+# output [4, 2]
+
 #
