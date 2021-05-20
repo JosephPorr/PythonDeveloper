@@ -1,0 +1,147 @@
+# vals = [0, 1, 2]
+# vals.insert(0, 1)
+# del vals[1]
+# output: 4
+
+###
+
+t = [[3-i for i in range (3)] for j in range (3)]
+s = 0
+for i in range(3):
+   s += t[i][i]
+   print(s)
+
+###
+
+# nums = [1, 2, 3]
+# vals = nums[-1:-2]
+# The -1 starts at 1 and -2 starts after the 3 creating a list of 4 
+# nums is longer than values
+
+###
+
+var = 0
+while var < 6:
+    var += 1
+    if var % 2 == 0:
+        continue
+    print("#")  # output: 1
+
+###
+
+nums = [1, 2, 3]
+vals = nums
+del vals[1:2] # changes ton nums will also change vals
+# output: nums and vals are the same length
+
+###
+
+z = 10
+y = 0
+x = y < z and z > y or y > z and z < y # # “or” means not Boolean. 
+# True
+
+###
+
+for i in range(1):
+    print("#")
+else:
+    print("#")
+
+###
+
+x = 1
+x = x == x # == is an equality operator
+# 1 = 1 is true
+
+###
+
+lst1 = [1, 2, 3]
+lst2 = []
+for v in lst1:
+    lst2.insert(0, v)
+    print(lst2)
+
+###
+
+lst = [[0, 1, 2, 3] for i in range(2)]  # THe range 2 is shorter than the list
+print(lst[2][0])
+# IndexError: list index out of range
+
+###
+
+lst = [i for i in range(-1, 2)] # starts at -1 and ends at 2, 3 total elements
+# 3
+
+###
+
+lst1 = [1, 2, 3]
+lst2 = []
+for v in lst1:
+    lst2.insert(0, v)
+print(lst2)
+# output: [3, 2, 1]
+
+###
+
+i = 0
+while i <= 3 :
+    i += 2
+    print("*")
+
+###
+
+i = 0
+while i <= 5 :
+    i += 1
+    if i % 2 == 0:  # divisible by 2
+        break  # reaks at the first number divisible by 2
+    print("*")
+# output is 1
+
+###
+
+lst = [3, 1, -2]
+print(lst[lst[-1]]) # the -1 counts backwards in the range.
+# output: 1
+
+###
+
+lst = [1, 2, 3, 4]
+print(lst[-3:-2]) # the starting point is -3 from the first position 0 in the list that is assigned a 1, 
+# [_, _, _, 2, 3, 4] and the ending is -2 backwards leaving 2
+# output [2]
+
+###
+
+a = 1
+b = 0
+c = a & b # c = 1 bitwise AND 0
+d = a | b # d = 1 bitwise OR 0
+e = a ^ b # e = 1 bitwisee XOR 0
+print(c + d + e)
+# output: 2
+
+###
+
+var = 1
+while var < 10:
+    print("#")
+    var = var << 1  # this bitshift operator moves bits to the left
+# output: 4
+
+###
+
+lst = [1, 2, 3]
+for v in range(len(lst)): # variable in the range's length of the list
+    lst.insert(1, lst[v]) # incert a 1 for the length of the list.  Length is 3
+print(lst)
+# output: [1, 1, 1, 1, 2, 3]
+
+###
+
+vals = [0, 1, 2]
+vals[0], vals[2] = vals[2], vals[0]  # reverses the lisit by reassigning the elements
+# output: [2, 1, 0]
+
+#
