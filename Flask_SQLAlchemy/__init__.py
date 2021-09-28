@@ -11,7 +11,7 @@ from flask import Flask, render_template, redirect, url_for, request, flash
 from flask_migrate import Migrate
 from werkzeug.security import generate_password_hash
 
-def create_app(test_config=None):
+def app(test_config=None):
     # Initial setup omitted
 
     from .models import db, User
