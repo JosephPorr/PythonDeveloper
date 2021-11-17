@@ -21,6 +21,7 @@ print(f"Uppercase Letters: {h.extract_upper(name)}")
 ###
 
 # Can call functions directly form the module.
+# This method is recommened to avoid word collisions.
 
 from helpers import extract_upper, extract_lower
 
