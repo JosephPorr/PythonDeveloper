@@ -1,4 +1,6 @@
 import helpers
+from helpers import variables # this would import the variables file  from the helpers folder.
+from helpers.strings import _extract_lower, _extract_upper # this would import the upper & lower from the strings file.
 
 # The import module was the fucntion created in the helpers file.
 # It's recommended to run the main.py file with only the mod
