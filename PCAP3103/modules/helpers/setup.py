@@ -70,15 +70,15 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/pypa/sampleproject',  # Optional
+    # url='https://github.com/pypa/sampleproject',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
-    author='A. Random Developer',  # Optional
+    author='Joe Porr',  # Optional
 
     # This should be a valid email address corresponding to the author listed
     # above.
-    author_email='author@example.com',  # Optional
+    author_email='Joseph.Porr@gmail.com',  # Optional
 
     # Classifiers help users find your project by categorizing it.
     #
@@ -144,7 +144,7 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
-    install_requires=['peppercorn'],  # Optional
+    # install_requires=['peppercorn'],  # Optional
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
@@ -154,23 +154,23 @@ setup(
     #
     # Similar to `install_requires` above, these must be valid existing
     # projects.
-    extras_require={  # Optional
-        'dev': ['check-manifest'],
-        'test': ['coverage'],
-    },
+    # extras_require={  # Optional
+    #    'dev': ['check-manifest'],
+    #    'test': ['coverage'],
+    # },
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.
-    package_data={  # Optional
-        'sample': ['package_data.dat'],
-    },
+    #cpackage_data={  # Optional
+    #    'sample': ['package_data.dat'],
+    #c},
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
     # http://docs.python.org/distutils/setupscript.html#installing-additional-files
     #
     # In this case, 'data_file' will be installed into '<sys.prefix>/my_data'
-    data_files=[('my_data', ['data/data_file'])],  # Optional
+    # data_files=[('my_data', ['data/data_file'])],  # Optional
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
@@ -179,11 +179,11 @@ setup(
     #
     # For example, the following would provide a command called `sample` which
     # executes the function `main` from this package when invoked:
-    entry_points={  # Optional
-        'console_scripts': [
-            'sample=sample:main',
-        ],
-    },
+    #centry_points={  # Optional
+    #    'console_scripts': [
+    #        'sample=sample:main',
+    #    ],
+    #c},
 
     # List additional URLs that are relevant to your project as a dict.
     #
@@ -194,10 +194,10 @@ setup(
     # issues, where the source is hosted, where to say thanks to the package
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
-    project_urls={  # Optional
-        'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
-    },
+    # project_urls={  # Optional
+    #    'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
+    #    'Funding': 'https://donate.pypi.org',
+    #    'Say Thanks!': 'http://saythanks.io/to/example',
+    #    'Source': 'https://github.com/pypa/sampleproject/',
+    # },
 )
