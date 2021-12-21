@@ -1,0 +1,22 @@
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/PCAP3103/modules/helpers (master)
+$ pip install --editable .
+Obtaining file:///C:/Users/Joe/Documents/GitHub/PythonDeveloper/PCAP3103/modules/helpers
+Installing collected packages: helpers
+  Running setup.py develop for helpers
+Successfully installed helpers
+
+
+Joe@Joe-PC MINGW64 ~/Documents/GitHub/PythonDeveloper/PCAP3103/modules/helpers (master)
+$ python -m doctest strings.py
+**********************************************************************
+File "C:\Users\Joe\Documents\GitHub\PythonDeveloper\PCAP3103\modules\helpers\strings.py", line 6, in strings.extract_upper       
+Failed example:
+    extract_upper("Hello There, BOB")
+Expected:
+    ['H', 'T', 'B', 'O', '']  <--- # doctest recorded an error be the uppercase B in BOB was not in the library.
+Got:
+    ['H', 'T', 'B', 'O', 'B']
+**********************************************************************
+1 items had failures:
+   1 of   1 in strings.extract_upper
+***Test Failed*** 1 failures.
