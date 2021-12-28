@@ -14,4 +14,3 @@ assert type(shuffle(name)) == str, f"Expected a string, but got {type(shuffle(na
 assert sorted(shuffle(name)) == sorted(
     name
 ), f"Expected [' ', 'B', 'K', 'a', 'c', 'e', 'i', 'n', 'n', 'o', 'v'], but got {sorted(shuffle(name))}"
-We've imported the whole math module, so now we should be able to run the file and see a different error
