@@ -2,7 +2,7 @@
 import math
 
 # 2) Import the `reverse` and `str_shuffle` as `shuffle` from the custom `strhelpers` module (Needs to be created)
-from strhelper import reverse
+from strhelpers import reverse
 
 name = "Kevin Bacon"
 
