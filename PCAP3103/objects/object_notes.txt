@@ -1,0 +1,3 @@
+Objects are basically an encapsulation of data variables and methods acting on that data
+A object needs some data and functionality. 
+Data atteched to an object is a method.
