@@ -7,7 +7,7 @@ class Bicycle(Vehicle):  #this will directly inherit the classmethod.
 
 # the Vehicle class requuired two positions, 'engine' & 'tires'.
 
-    def __init__(self, tires=None, distance_traveled=0, unit='miles'):
+    def __init__(self, tires=None, distance_traveled=0, unit='miles'):  # Self always refers to the instance.  __init__ is a hook
         super().__init__(distance_traveled, unit)
         if not tires:
             tires = [self.default_tire,self.default.tire]
