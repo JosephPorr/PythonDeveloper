@@ -2,7 +2,7 @@
 
 from vehicle import Vehicle
 
-class Bicycle(Vehicle):  #this will directly inherit the classmethod.
+class Bicycle(Vehicle):  #Vehicle is a sub classs and will directly inherit the classmethod.
     default_tire = 'tire'
 
 # the Vehicle class requuired two positions, 'engine' & 'tires'.
