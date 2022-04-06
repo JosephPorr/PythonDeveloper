@@ -1,3 +1,4 @@
+# Class is a classfication of an object.
 # classmethod means: when this method is called, 
 # we pass the class as the first argument instead of the instance of that class (as we normally do with methods).
 # classmethod() methods are bound to a class rather than an object. 
