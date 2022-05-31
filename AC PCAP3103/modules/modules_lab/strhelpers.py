@@ -4,7 +4,7 @@
 # which generates random numbers between 0 and 
 
 
-from random import shuffle; l_shuffle:
+from random import shuffle as l_shuffle;
 
 def reverse(str_value):
     return str_value[::-1]
